@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+# Environment & secrets
+.env
+
+# Data & cache
+data/
+data/cache/
+.streamlit/
+*.csv
+*.json
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
