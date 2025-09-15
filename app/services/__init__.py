@@ -1,5 +1,19 @@
-"""AI Playlist Mood Matcher - Main package"""
+"""Service layer for model clients and AI integration"""
 
-__version__ = "0.1.0"
-__author__ = "AI Playlist Team"
-__description__ = "Match your mood to the perfect playlist using AI"
+from .models import (
+    ModelManager,
+    ModelClientFactory,
+    BaseModelClient,
+    HuggingFaceClient,
+    OllamaClient,
+    ModelResponse,
+)
+
+__all__ = [
+    "ModelManager",
+    "ModelClientFactory",
+    "BaseModelClient",
+    "HuggingFaceClient",
+    "OllamaClient",
+    "ModelResponse",
+]
