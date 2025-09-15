@@ -12,6 +12,7 @@ venv/
 
 # Environment & secrets
 .env.example
+.env
 
 # Data & cache
 data/

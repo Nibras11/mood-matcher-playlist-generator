@@ -1,3 +1,4 @@
+
 """Core functionality for mood analysis and track processing"""
 
 from .mood import MoodParser, MoodProfile
@@ -12,4 +13,3 @@ __all__ = [
     "PlaylistRanker",
     "RankedTrack"
 ]
-

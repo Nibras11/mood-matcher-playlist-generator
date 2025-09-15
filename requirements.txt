@@ -1,9 +1,15 @@
 streamlit==1.36.0
 huggingface-hub==0.24.6
-datasets==2.20.0
-requests>=2.32.3,<3
+requests>=2.32.3
 pandas==2.2.2
 python-dotenv==1.0.1
 pydantic==2.8.2
+
+# RAG
+faiss-cpu==1.8.0.post1
+sentence-transformers==2.7.0
+scikit-learn==1.5.1
+
+# dev
 ruff==0.5.6
 pytest==8.3.2
